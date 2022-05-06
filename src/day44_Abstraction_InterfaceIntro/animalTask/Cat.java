@@ -1,6 +1,6 @@
 package day44_Abstraction_InterfaceIntro.animalTask;
 
-public final class Cat extends Animal {
+public final class Cat extends Animal implements Playable {
 
 
     public Cat(String name, String breed, char gender, int age, String size, String color) {
